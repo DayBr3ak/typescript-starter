@@ -1,0 +1,5 @@
+{
+  "watch": ["src", "dev.js", "tsconfig.json"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"]
+}

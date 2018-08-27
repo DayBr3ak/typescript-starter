@@ -9,6 +9,7 @@
   "license": "MIT",
   "keywords": [],
   "scripts": {
+    "dev": "nodemon dev.js",
     "info": "npm-scripts-info",
     "build": "run-s clean && run-p build:*",
     "build:main": "tsc -p tsconfig.json",
@@ -51,13 +52,15 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "sha.js": "^2.4.11"
+    "sha.js": "^2.4.11",
+    "ts-node": "^7.0.1"
   },
   "devDependencies": {
     "ava": "1.0.0-beta.7",
     "codecov": "^3.0.2",
     "cz-conventional-changelog": "^2.1.0",
     "gh-pages": "^1.2.0",
+    "nodemon": "^1.18.3",
     "npm-run-all": "^4.1.3",
     "nyc": "^12.0.2",
     "opn-cli": "^3.1.0",
